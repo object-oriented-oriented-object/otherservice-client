@@ -1,0 +1,8 @@
+application-dev.yaml
+*.log
+*.iml
+.idea/
+.history/
+target/
+.DS_Store
+
