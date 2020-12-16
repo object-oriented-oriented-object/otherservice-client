@@ -5,7 +5,7 @@ import cn.edu.xmu.goods.model.dto.FlashSaleTimeSegmentDTO;
 import java.util.List;
 
 public interface TimeSegmentServiceInterface {
-    List<Long> getCurrentFlashSaleTimeSegs();
+    String getCurrentFlashSaleTimeSegs();
 
     Boolean timeSegIsFlashSale(Long id);
 
